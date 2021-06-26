@@ -180,21 +180,22 @@ namespace WowFishingAssist
             Point pt = new Point(10, 10);
             Cursor.Position = pt;
             // sendAKey(0xBB);
-            sendAKey(0xBF);  // - / 
-            await Task.Delay(100);
-            sendAChar(0x43);  // - C
-            sendAChar(0x41);  // - A   
-            sendAChar(0x53);  // - S 
-            sendAChar(0x54);  // - T
-            sendAChar(0x20);  // - 
-            sendAChar(0x66);  // -f
-            sendAChar(0x49);  // -i
-            sendAChar(0x53);  // -s 
-            sendAChar(0x48);  // -h
-            sendAChar(0x49);  // -i
-            sendAChar(0x4E);  // -n
-            sendAChar(0x47);  // -g
-            sendAKey(0x0D);//Enter
+           // sendAKey(0xBF);  // - / 
+           // await Task.Delay(100);
+           // sendAChar(0x43);  // - C
+           // sendAChar(0x41);  // - A   
+           // sendAChar(0x53);  // - S 
+           // sendAChar(0x54);  // - T
+           // sendAChar(0x20);  // - 
+           // sendAChar(0x66);  // -f
+           // sendAChar(0x49);  // -i
+           // sendAChar(0x53);  // -s 
+           // sendAChar(0x48);  // -h
+           // sendAChar(0x49);  // -i
+           // sendAChar(0x4E);  // -n
+           // sendAChar(0x47);  // -g
+           // sendAKey(0x0D);//Enter
+            sendAKey(0x31);
             await Task.Delay(100);
             CastCount++;
         }
